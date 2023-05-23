@@ -1,0 +1,10 @@
+agent_name = "modded mc atm8"
+secret_path = "/mnt/server/playit-secret.txt"
+command = "/bin/bash"
+command_args = ["run.sh"]
+
+[[tunnels]]
+name = "Modded MC: ATM8"
+proto = "tcp"
+port_count = 1
+
